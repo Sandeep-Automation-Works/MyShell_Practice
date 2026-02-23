@@ -1,5 +1,5 @@
 #!/bin/bash
 
-HOSTNAME=$hostname
+HOSTNAME=$(hostname)
 
 echo "This server name is $HOSTNAME"
