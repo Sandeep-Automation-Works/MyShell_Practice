@@ -13,7 +13,7 @@ COMMENT
 # End of the comments
 
 SOURCE="/tmp/file1/"
-DEST="backup $(date +%F)"
+DEST="backup $(date +%F).log"
 
 mkdir -p "$SOURCE"
 mkdir -p "$DEST"
