@@ -12,8 +12,8 @@ Make sure it won’t break if paths contain spaces.
 COMMENT
 # End of the comments
 
-SOURCE="/tmp/file1/"
-DEST="backup $(date +%F).log"
+SOURCE="/tmp/file1/backup $(date +%F).log"
+DEST="/tmp/file2/"
 
 mkdir -p "$SOURCE"
 mkdir -p "$DEST"
