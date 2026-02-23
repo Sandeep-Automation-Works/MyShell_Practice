@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TODAY="$(date + %F)"
+TODAY="$(date + %Y-%m-%d)"
 LOG_PATH="/tmp/temp/"
 LOG_FILE="/tmp/temp/backup-$TODAY.log"
 mkdir -p "$LOG_PATH"
