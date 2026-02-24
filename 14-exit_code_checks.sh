@@ -6,3 +6,5 @@ if mkdir "TEST_PATH"; then
 else
     echo "Failed to create directory"
 fi
+
+echo "Directory created location $TEST_PATH"
