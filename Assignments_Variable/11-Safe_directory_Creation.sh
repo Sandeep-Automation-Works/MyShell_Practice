@@ -8,5 +8,5 @@ if [ -d $DIR ]; then
 else
     echo " Create Directory"
     exit 0
-f1
+fi
 
