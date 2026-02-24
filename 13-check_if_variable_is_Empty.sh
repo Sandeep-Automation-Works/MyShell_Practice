@@ -2,7 +2,7 @@
 
 USERNAME="$1"
 
-if [ -z $username ]; then
+if [ -z "$USERNAME" ]; then
     echo "Username not provided"
 else
     echo "Welcome $USERNAME"
