@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TEST_PATH="/tmp/test"
+TEST_PATH="/var/log/test"
 if mkdir "TEST_PATH"; then
     echo "Directory created successfully"
 else
