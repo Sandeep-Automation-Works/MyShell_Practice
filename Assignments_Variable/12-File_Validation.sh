@@ -8,8 +8,9 @@ if [ -z "$FILE" ]; then
 fi
 
 if [ -f "$FILE" ]; then
+    echo "Ready to deploy"
+    exit 0
+else    
     echo "Error: File does not exist"
     exit 1
-else
-    echo "Ready to deploy"
 fi
